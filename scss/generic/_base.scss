@@ -1,0 +1,22 @@
+/* LOS COMENTARIOS SON DEMOSTRATIVOS Y PUEDEN SER BORRADOS UNA VEZ INICIE EL PROYECTO*/
+
+/* Agrega en esta primera parte las importaciones necesarias de otras hojas de estilo que sean útiles para el correcto renderizado Ej: @import "../utilities/mixins";*/
+/* ---- Importaciones ---- */
+
+
+
+/* En esta parte del archivo van todos los estilos que sean para personalizar elementos transversales, Ej: body, layouts, enlaces, y algunos objetos que sean muy pequeños para meterlo en su propia hoja de la carpeta Objects, procurar separar los elementos como en las categorías en que se aplica el estilo */
+/* ---- Base ---- */
+
+body{
+    color: $txt-color;
+    background-color: $bg-color;
+}
+
+a{
+    color: $primary;
+
+    &:hover{
+        opacity: 0.75;
+    }
+}

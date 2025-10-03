@@ -1,0 +1,62 @@
+/* LOS COMENTARIOS SON DEMOSTRATIVOS Y PUEDEN SER BORRADOS UNA VEZ INICIE EL PROYECTO*/
+
+/* Agrega en esta primera parte las importaciones necesarias de otras hojas de estilo que sean útiles para el correcto renderizado Ej: @import "../utilities/mixins";*/
+/* ---- Importaciones ---- */
+
+
+
+/* En esta parte del archivo irán las variables que declaremos que se usarán en las otras hojas de estilo, es recomendable separar las variables por categorías dependiendo del tipo de propiedad al que vayan a ser aplicadas, se pueden agregar, eliminar o modificar las existentes */
+/* ---- Declaración de variables ---- */
+
+/* ---- Variables de color ---- */
+/* Colores base - Modificar dependiendo del cliente*/
+$primary: #1e3485;
+$secondary: #feab05;
+$tertiary: #020329;
+/* Colores complementarios - Modificar dependiendo del cliente */
+$yellow: #f1c40f;      // Amarillo
+$blue: #3498db;        // Azul
+$red: #e74c3c;         // Rojo
+$green: #2ecc71;       // Verde
+$orange: #e67e22;      // Naranja
+$purple: #9b59b6;      // Púrpura
+$brown: #7d5b3e;       // Marrón
+/* Estados - Modificar dependiendo del cliente */
+$success: #11e333;
+$warning: #f9cc2d;
+$danger: #fb3030;
+$info: #006fb8;
+/* Neutros */
+$white: #ffffff;
+$black: #000000;
+$bg-color: #f3f3f3;
+$txt-color: #585858;
+/* Gama de grises */
+$gray-lightest: #f7f7f7;
+$gray-lighter: #e0e0e0;
+$gray-light: #b0b0b0;
+$gray: #7d7d7d;
+$gray-dark: #4d4d4d;
+$gray-darker: #2c2c2c;
+$gray-darkest: #1a1a1a;
+
+/* ---- Para Mediaqueries ---- */
+$breakpoints: (
+  1500: 1500px,
+  1320: 1320px,
+  1250: 1250px,
+  1200: 1200px,
+  1100: 1100px,
+  1050: 1050px,
+  1000: 1000px,
+  991: 991px,
+  768: 768px,
+  600: 600px,
+  576: 576px,
+  550: 550px,
+  500: 500px,
+  420: 420px,
+  400: 400px,
+  350: 350px,
+  320: 320px,
+);

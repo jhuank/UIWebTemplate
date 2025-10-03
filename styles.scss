@@ -1,0 +1,49 @@
+/* Agrega en esta primera parte las importaciones necesarias de hojas de estilo que sean de librerías que se usen en el proyecto. Ej: Material, primeng, etc...*/
+/* ---- Importaciones librerías ---- */
+
+
+
+/* ---- Importaciones hojas de estilo ---- */
+/* Reset styles */
+@import "./scss/generic/reset";
+
+/* Global Variables */
+@import "./scss/settings/variables";
+
+/* Global Fonts */
+@import "./scss/settings/fonts";
+
+/* Global Typography */
+@import "./scss/settings/typography";
+
+/* Global animaciones */
+@import "./scss/tools/animations";
+
+/* Global mixins */
+@import "./scss/tools/mixins";
+
+/* Global elements */
+@import "./scss/elements/elements";
+
+/* Global base */
+@import "./scss/generic/base";
+
+/* Global Objects */
+/* Global buttons */
+@import "./scss/objects/buttons";
+
+/* Global forms */
+@import "./scss/objects/forms";
+
+/* Global modals */
+@import "./scss/objects/modals";
+
+/* Global tables */
+@import "./scss/objects/tables";
+
+/* Global cards */
+@import "./scss/objects/cards";
+
+/* ---- Dejar de último ---- */
+/* Global utilidades */
+@import "./scss/utilities/utilities";

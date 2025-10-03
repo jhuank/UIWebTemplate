@@ -1,0 +1,23 @@
+/* LOS COMENTARIOS SON DEMOSTRATIVOS Y PUEDEN SER BORRADOS UNA VEZ INICIE EL PROYECTO*/
+
+/* Agrega en esta primera parte las importaciones necesarias de otras hojas de estilo que sean útiles para el correcto renderizado Ej: @import "../utilities/variables";*/
+/* ---- Importaciones ---- */
+
+
+
+/* En esta parte del archivo irán las declaraciones tipográficas que hagan parte de todo el proyecto, establecer todas las propiedades necesarias de los textos que se vayan a utilizar, se sugiere separar por tipo de elemento (título, subtítulos, etc.) */
+/* ---- Declaración de fuentes ---- */
+
+*, html, body{
+    font-family: 'area';
+    font-size: 14px;
+}
+
+.title-base{
+    font-family: 'area-black';
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $primary;
+    text-align: center;
+}

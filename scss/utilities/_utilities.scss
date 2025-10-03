@@ -1,0 +1,57 @@
+/* LOS COMENTARIOS SON DEMOSTRATIVOS Y PUEDEN SER BORRADOS UNA VEZ INICIE EL PROYECTO*/
+
+/* Agrega en esta primera parte las importaciones necesarias de otras hojas de estilo que sean útiles para el correcto renderizado Ej: @import "../utilities/mixins";*/
+/* ---- Importaciones ---- */
+
+
+
+/* En esta parte del archivo van todas las clases pequeñas que se usarán en casos específicos y no es necesario afectar clases principales, son aquellas que se pueden agregar a elementos o extender, cada una de estas clases llevan una sola propiedad que servirá de estilo adicional, estas se extienden con %, no con selector de clase ('.') */
+/* ---- Utilidades ---- */
+
+/* Espaciado */
+.m-0 { margin: 0; }
+.m-5 { margin: 5px; }
+.m-10 { margin: 10px; }
+.m-15 { margin: 15px; }
+.m-20 { margin: 20px; }
+.m-30 { margin: 30px; }
+
+.p-0 { padding: 0; }
+.p-5 { padding: 5px; }
+.p-10 { padding: 10px; }
+.p-15 { padding: 15px; }
+.p-20 { padding: 20px; }
+.p-30 { padding: 30px; }
+
+/* Flexbox */
+.d-flex { display: flex; }
+.d-inline-flex { display: inline-flex; }
+.flex-column { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.align-items-center { align-items: center; }
+.justify-content-center { justify-content: center; }
+
+/* Texto */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* Visibilidad */
+.d-none { display: none; }
+.d-block { display: block; }
+.d-inline { display: inline; }
+
+/* Tamaño */
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+
+/* Bordes */
+.rounded { border-radius: 0.25rem; }
+.rounded-circle { border-radius: 50%; }
+
+/* Transiciones */
+.transition { transition: all 0.3s ease; }
+
+/* Otros */
+.cursor-pointer { cursor: pointer; }
+.pointer-events-none { pointer-events: none; }
